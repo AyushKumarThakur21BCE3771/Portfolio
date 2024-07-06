@@ -1,0 +1,57 @@
+:root {
+  --black: #040d12;
+  --blue: #060417;
+  --darkGreen: #183d3d;
+  --green: #5c8374;
+  --lightGreen: #93b1a6;
+  --white: #fff;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  list-style-type: none;
+  text-decoration: none;
+  color: var(--white);
+}
+body {
+  background-color: var(--blue);
+}
+body::-webkit-scrollbar {
+  width: 12px;
+}
+body::-webkit-scrollbar-track {
+  background: #6b56c1;
+}
+body::-webkit-scrollbar-thumb {
+  background: #241b4b;
+  border-radius: 3px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: #332b58;
+}
+.conatiner {
+  position: relative;
+}
+
+.scrollPopUP {
+  animation: appear 5s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0;
+  }
+  from {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+@media (max-width: 1300px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+}
