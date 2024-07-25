@@ -27,9 +27,8 @@ function Mainpage() {
             ideas into reality. Explore the journey of a passionate software
             developer dedicated to building the future of technology.
           </p>
-          <button id="resume" style={{ position: "relative", top: "50px" }}>
-            Get Resume
-          </button>
+          
+          <a href="https://docs.google.com/document/d/1I-zFhC8ThfdK_zuAc5YkCS2WOuE0pfus" target="blank" id="resume">Resume</a>
         </div>
         <div className="hero-img">
           <img src={heroImg} />

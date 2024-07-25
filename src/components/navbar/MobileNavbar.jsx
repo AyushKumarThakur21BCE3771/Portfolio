@@ -30,7 +30,8 @@ const MobileNavbar = ({ isOpen, toggleMenu }) => {
               </Link>
             </li>
           </ul>
-          <button id="hireMe-btn">Hire Me</button>
+          
+          <a href="https://docs.google.com/document/d/1I-zFhC8ThfdK_zuAc5YkCS2WOuE0pfus" target="blank" id="hireMe">Resume</a>
         </div>
       </div>
     </>

@@ -67,7 +67,7 @@ function Navbar({tl, ease}) {
               </Link>
             </li>
           </ul>
-          <button id="hireMe" ref={(el)=>(resume_btn = el)}>Resume</button>
+          <a href="https://docs.google.com/document/d/1I-zFhC8ThfdK_zuAc5YkCS2WOuE0pfus" target="blank" id="hireMe" ref={(el)=>(resume_btn = el)}>Resume</a>
         </div>
         <div className="menu-btn">
           {openMenu ? (
